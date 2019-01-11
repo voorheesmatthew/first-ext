@@ -2,14 +2,16 @@
     "name": "Chrome Extension Example",
     "version": "1.0",
     "description": "Build an Extension!",
-    "permissions": ["storage"],
+    "permissions": [
+        "declarativeContent",
+        "storage"
+    ],
     "background": {
         "scripts": [
             "js/background.js"
         ],
         "persistent": false
     },
-    "manifest_version": 2,
     "page_action": {
         "default_popup": "popup.html",
         "default_icon": {
@@ -24,5 +26,6 @@
         "32": "images/img32.png",
         "48": "images/img48.png",
         "128": "images/img128.png"
-    }    
+    },
+    "manifest_version": 2
 }
