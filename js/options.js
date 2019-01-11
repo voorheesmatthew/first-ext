@@ -9,6 +9,7 @@ function constructOptions(kButtonColors) {
                 console.log('color is ' + item);
             });
         });
+        page.appendChild(button);
     }
 }
 constructOptions(kButtonColors);
