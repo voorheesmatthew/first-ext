@@ -28,5 +28,6 @@
         "48": "images/img48.png",
         "128": "images/img128.png"
     },
+    "options_page": "options.html",
     "manifest_version": 2
 }
